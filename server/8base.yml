@@ -1,0 +1,6 @@
+functions:
+  userBeforeCreate:
+    type: trigger.before
+    handler:
+      code: src/userBeforeCreate.ts
+    operation: User.create
